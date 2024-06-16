@@ -11,7 +11,7 @@ public class GitappApplication {
 
     @GetMapping("/welcome")
     public String welcome(){
-        return "Welcome Home";
+        return "Welcome Home yall";
     }
     public static void main(String[] args) {
         SpringApplication.run(GitappApplication.class, args);
